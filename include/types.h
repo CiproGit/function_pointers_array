@@ -1,15 +1,15 @@
-#ifndef TYPES_H_
-#define TYPES_H_
+#ifndef TYPES_H
+#define TYPES_H
 
-typedef enum day_t {
-	monday, 		// 0
-	tuesday, 		// 1
-	wednesday, 		// 2
-	thursday, 		// 3
-	friday, 		// 4
-	saturday, 		// 5
-	sunday,			// 6
-	max_num_days	// 7
-} day_t;
+enum day_t : int {
+	SUNDAY,			// 0
+	MONDAY,			// 1
+	TUESDAY,		// 2
+	WEDNESDAY,		// 3
+	THURSDAY,		// 4
+	FRIDAY,			// 5
+	SATURDAY,		// 6
+	MAX_NUM_DAYS	// 7
+};
 
-#endif /* TYPES_H_ */
+#endif // TYPES_H
