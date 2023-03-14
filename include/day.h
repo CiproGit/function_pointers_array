@@ -2,12 +2,14 @@
 #define DAY_H
 
 #include "types.h"
+#include <ctime>
 #include <functional>
+#include <chrono>
 
 namespace day {
 	class Day {
 	private:
-		time_t time;
+        time_t time;
 		day_t today;
 		day_t what_day_will_it_be(unsigned int n); // It returns what day it will be in n days
 
